@@ -35,4 +35,11 @@ public class Buch {
        return preis;
    }
    
+   // Setter
+   public void setTitel(String titel) {
+       this.titel = titel;
+   }
+   public void setPreis(double preis) {
+       this.preis = preis;
+   }
 }
