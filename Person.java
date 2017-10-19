@@ -43,5 +43,7 @@ public class Person {
     public void setAlter(int alter) {
         this.alter = alter;
     }
-    
+    public void druckeInfo() {
+        System.out.println("Name: " + name + "," + "Alter: " + alter);
+    }
 } 

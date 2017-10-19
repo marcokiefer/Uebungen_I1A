@@ -15,4 +15,6 @@ comment6.params=name
 comment6.target=void\ setName(java.lang.String)
 comment7.params=alter
 comment7.target=void\ setAlter(int)
-numComments=8
+comment8.params=
+comment8.target=void\ druckeInfo()
+numComments=9
