@@ -8,14 +8,14 @@
 public class Heizung    // Definiert die Klasse Heizung
 {
     private int temperatur;     // Datenfeld temperatur erstellt
-    private int min;
-    private int max;
-    private int schrittweite;
+    private int min;            // Datenfeld min erstellt
+    private int max;            // Datenfeld max erstellt
+    private int schrittweite;   // Datenfeld schrittweite
     
-        public Heizung (int min, int max) {
-        this.min = min;
-        this.max = max;
-        this.schrittweite = 5;
+        public Heizung (int min, int max) {         // Kontstruktor erstellt; 
+        this.min = min;                             // Default werte gesetzt: schrittweite 5;   
+        this.max = max;                             // Default temperatur auf 15 gesetzt;
+        this.schrittweite = 5;                      
         this.temperatur = 15;
     }
     
@@ -25,6 +25,7 @@ public class Heizung    // Definiert die Klasse Heizung
             this.temperatur = neueTemperatur;
         } else {
             this.temperatur = this.max;
+            System.out.println("Maximaltemperatur erreicht");
         }
     }
     
@@ -34,6 +35,7 @@ public class Heizung    // Definiert die Klasse Heizung
             this.temperatur = neueTemperatur;
         } else {
             this.temperatur = this.min;
+            System.out.println("Minimaltemperatur erreicht");
         }
     }
     
