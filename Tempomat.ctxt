@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Tempomat
+comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ Tempomat.\r\n\ \r\n\ @author\ (I1A)\ \r\n\ @version\ (20.10.2017)\r\n
+comment1.params=
+comment1.target=Tempomat()
+comment2.params=geschwindigkeitInKmh
+comment2.target=Tempomat(int)
+comment3.params=geschwindigkeitInKmh
+comment3.target=void\ setGeschwindigkeit(int)
+comment4.params=
+comment4.target=void\ toogleTempomat()
+comment5.params=
+comment5.target=void\ beschleudnigen()
+comment6.params=
+comment6.target=void\ verz\u00F6gern()
+comment7.params=schrittweite
+comment7.target=void\ setSchrittweite(int)
+numComments=8
